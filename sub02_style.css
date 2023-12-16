@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:link{color: #AFAFAF;}
+a:visited{color: #AFAFAF;}
+a:hover{color:red}
+a:active{color:#AFAFAF}
+
+
+header{
+    width: 1920px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #797979;
+}
+
+.navigatiion{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation h1{
+    width: 230px;
+    display: flex;
+    align-items: center;
+}
+
+header .navigation nav{
+    width: 713px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin-right: 100px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+}
+
+nav ul a{
+    padding-left: 50px;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: -0.4px;
+}
+header h1 img{
+    width: 800px;
+    padding-top: 30px;
+}
+
+.box1{
+    position: relative;
+    background-image: url(img/제목\ 없음-3.png);
+    height: 904px;
+    width: 1920px;
+}
+.text1_1{
+    position: absolute;
+    font-size: 80px;
+    line-height: 116px;
+    margin-left: 1469px;
+    margin-top: 503px;
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}
+
+.box2{
+    position: relative;
+    background-color: #EE9E9E;
+    width: 1920px;
+    height: 897px;
+}
+.box2_1{
+    position: absolute;
+    background-image: url(img/팅커햇필드8.png);
+    width: 783px;
+    height: 500px;
+    margin-top: 182px;
+    margin-left: 177px;
+}
+.box2_2{
+    position: absolute;
+    background-image: url(img/그룹\ 2.png);
+    width: 744px;
+    height: 501px;
+    margin-left: 1101px;
+    margin-top: 182px;
+}
+.text2_3{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 760px;
+    margin-left: 386px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}
+.box3{
+    position: relative;
+    background-color: #990000;
+    width: 1920px;
+    height: 2096px;
+}
+.box3_1{
+    position: absolute;
+    background-image: url(img/스크린샷\ 2023-11-26\ 040510.png);
+    width: 1314px;
+    height: 687px;
+    margin-left: 320px;
+    margin-top: 192px;
+}
+.text3_2{
+    position: absolute;
+    font-size: 80px;
+    margin-left: 517px;
+    margin-top: 1084px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+.text3_3{
+    position: absolute;
+    font-size: 38px;
+    margin-left: 268px;
+    margin-top: 1302px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+
+}
+.box4{
+    position: relative;
+    background-color: #EE9E9E;
+    width: 1920px;
+    height: 2280px;
+}
+.box4_1{
+    position: absolute;
+    background-image: url(img/그룹\ 3.png);
+    width: 1275px;
+    height: 867px;
+    margin-top: 436px;
+}
+.box4_2{
+    position: absolute;
+    background-image: url(img/사각형\ 40.png);
+    width: 1181px;
+    height: 798px;
+    margin-left: 739px;
+    margin-top: 1142px;
+}
+.text4_3{
+    position: absolute;
+    font-size: 51px;
+    margin-top: 1342px;
+    margin-left: 844px;
+    color: white;
+    font-weight: 700;
+}
+.text4_4{
+    position: absolute;
+    font-size: 24px;
+    margin-top: 1511px;
+    margin-left: 844px;
+    line-height: 63px;
+    color: white;
+}
